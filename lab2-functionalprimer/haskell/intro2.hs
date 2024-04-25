@@ -9,7 +9,7 @@ pname3 = print "Bob"
 
 myprogram = print (1 + m)  -- compiler error: m undefined
                       -- unless this line is also present
-
+m = 3
 -- sequencing several imperative programs:
 prg1 = do
   print "hello " 
